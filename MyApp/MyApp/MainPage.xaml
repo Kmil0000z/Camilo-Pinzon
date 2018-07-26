@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MyApp" x:Class="MyApp.MainPage">
         <!-- Place new controls here -->
-        <ActivityIndicator Color="Green"
-                           IsRunning="true">
-            
-        </ActivityIndicator>
+        <StackLayout>
+            <ActivityIndicator Color="Green"
+                               IsRunning="true"/>
+                <BoxView Color="Teal" 
+                         WidthRequest="200"
+                         HeightRequest="100"
+                         HorizontalOptions="Center"/>
+                <BoxView Color="Navy"
+                         WidthRequest="200"
+                         HeightRequest="200"
+                         HorizontalOptions="Center"/>
+        </StackLayout>
 </ContentPage>
