@@ -19,7 +19,8 @@
                         FontAttributes="Bold"
                         BorderColor="PaleGreen"
                         BorderWidth="2"
-                        Image="if_facebook_328029.png"
-                        ContentLayout="Top, 10"/>
+                        Image="facebook.png"
+                        ContentLayout="Top, 10"
+                        HorizontalOptions="Center"/>
         </StackLayout>
 </ContentPage>

@@ -157,6 +157,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\if_facebook_328029.png" />
+    <AndroidResource Include="Resources\facebook.png" />
   </ItemGroup>
 </Project>
