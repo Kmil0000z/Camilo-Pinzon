@@ -12,5 +12,14 @@
                          WidthRequest="200"
                          HeightRequest="200"
                          HorizontalOptions="Center"/>
+                <Button Text="Xamarin"
+                        TextColor="Black"
+                        BackgroundColor="Green"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        BorderColor="PaleGreen"
+                        BorderWidth="2"
+                        Image="if_facebook_328029.png"
+                        ContentLayout="Top, 10"/>
         </StackLayout>
 </ContentPage>

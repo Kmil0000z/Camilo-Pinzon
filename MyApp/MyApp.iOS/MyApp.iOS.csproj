@@ -156,4 +156,7 @@
       <Name>MyApp</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\if_facebook_328029.png" />
+  </ItemGroup>
 </Project>
