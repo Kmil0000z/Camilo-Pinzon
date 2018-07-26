@@ -13,6 +13,12 @@
                     Clicked="btnEnviarClicked"/>
             <DatePicker x:Name="dtpFecha"
                         Format="dd/MM/yyyy"/>
+            <Editor x:Name="edComentario"
+                    HeightRequest="100"
+                    Text="Escribir aqui"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
