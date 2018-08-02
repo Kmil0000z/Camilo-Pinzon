@@ -5,8 +5,8 @@
              x:Class="DemoViews.MainPage">
     <ScrollView>
         <StackLayout>
-            <Image Source="facebook.png"
-                   Aspect="AspectFill"/>
+            <Image Source="user.png"
+                   Aspect="AspectFit"/>
             <Label HorizontalOptions="Center"
                    Text="Xamarin Forms"
                    TextColor="Aqua"
@@ -22,8 +22,7 @@
                    BackgroundColor="Blue"
                    WidthRequest="200"
                    HeightRequest="300"
-                   LineBreakMode="HeadTruncation"/>
-            
+                   LineBreakMode="HeadTruncation"/> 
         </StackLayout>
     </ScrollView>
 </ContentPage>

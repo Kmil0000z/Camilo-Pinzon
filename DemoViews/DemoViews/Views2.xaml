@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="DemoViews.Views2">
+    <StackLayout
+        VerticalOptions="CenterAndExpand">
+        <Picker 
+            x:Name="pickMusic"
+            Title="Seleccionar una opción"
+            TextColor="Fuchsia"
+            SelectedIndexChanged="pickMusic_SelectedIndexChange">
+            <Picker.Items>
+                <x:String>Pop</x:String>
+                <x:String>Rock</x:String>
+                <x:String>Instrumental</x:String>
+                <x:String>Clásica</x:String>
+                <x:String>Ópera</x:String>
+            </Picker.Items>
+        </Picker>
+        <ProgressBar
+            x:Name="progressNum"
+            Progress="1">
+        </ProgressBar>
+        <Button
+            x:Name="btnSimular"
+            Text="Simular"
+            BackgroundColor="Blue"
+            TextColor="White"
+            FontAttributes="Bold"
+            FontSize="Large"
+            Clicked="btnSimular_Clicked">
+        </Button>
+        <SearchBar
+            x:Name="searchBar"
+            Placeholder="Buscar"
+            CancelButtonColor="Blue"
+            SearchButtonPressed="Handle_SearchButtonPressed"
+            TextColor="Aqua"
+            TextChanged="Handle_TextChanged">
+        </SearchBar>
+    </StackLayout>
+</ContentPage>
