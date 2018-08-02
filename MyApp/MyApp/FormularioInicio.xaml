@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MyApp.FormularioInicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre"
+                   TextColor="Teal"/>
+            <Entry Placeholder="Ingrese su nombre"/>
+            <Label Text="Direccion"
+                   TextColor="Teal"/>
+            <Entry Placeholder="Ingrese su Direccion de residencia"/>
+            <Label Text="Telefono"
+                   TextColor="Teal"/>
+            <Entry Placeholder="Ingrese su numero de telefono"/>
+            <Label Text="Correo"
+                   TextColor="Teal"/>
+            <Entry Placeholder="Ingrese su correo electronico"/>
+            <Label Text="Contraseña"
+                   TextColor="Teal"/>
+            <Entry Placeholder="Ingrese su contraseña"
+                   IsPassword="true"/>
+            <Button Text="Enviar"
+                    TextColor="Black"
+                    BackgroundColor="White"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    HorizontalOptions="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
