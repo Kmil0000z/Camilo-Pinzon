@@ -16,13 +16,14 @@
                    WidthRequest="200"/>
             <Label VerticalOptions="Center"
                    HorizontalOptions="Center"
-                   Text="Xamarin Desarrola aplicaciones moviles multiplataforma"
+                   Text="Xamarin Desarrola aplicaciones moviles para multiplataformas"
                    TextColor="Aqua"
                    VerticalTextAlignment="End"
                    BackgroundColor="Blue"
                    WidthRequest="200"
                    HeightRequest="300"
                    LineBreakMode="HeadTruncation"/>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>
