@@ -38,5 +38,33 @@
             TextColor="Aqua"
             TextChanged="Handle_TextChanged">
         </SearchBar>
+        <Slider
+            x:Name="slider"
+            Maximum="200"
+            Minimum="100"
+            Value="120"
+            ValueChanged="Handle_ValueChanged">
+        </Slider>
+        <Label
+            x:Name="labCambio"
+            TextColor="Blue"
+            FontSize="Large"
+            HorizontalTextAlignment="Center"
+            FontAttributes="Bold"/>
+        <Stepper
+            x:Name="steeper"
+            Minimum="50"
+            Maximum="150"
+            Increment="25"
+            ValueChanged="stepEvent">
+        </Stepper>
+        <Label
+            x:Name="lblDisplay"/>
+        <Switch
+            x:Name="swtEstado"
+            IsToggled="true"
+            Toggled="Handle_Toggled"
+            HorizontalOptions="Center">
+        </Switch>
     </StackLayout>
 </ContentPage>
