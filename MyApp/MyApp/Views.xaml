@@ -13,6 +13,7 @@
                     Clicked="btnEnviarClicked"/>
             <DatePicker x:Name="dtpFecha"
                         Format="dd/MM/yyyy"/>
+            <Editor />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
