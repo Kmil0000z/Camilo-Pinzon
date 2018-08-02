@@ -11,18 +11,25 @@ namespace Formulario
     {
         public MainPage()
         {
-            async void Continue_Tapped(object sender, EventArgs e){
-                if(await validarFormulario()){
+            async void Continue_Tapped(object sender, EventArgs e)
+            {
+                if (await validarFormulario())
+                {
                     await DisplayAlert("Exito", "Todos tus datos cumplieron las validaciones", "Continuar");
                 }
             }
         }
-        private async Task<bool> validarFormulario(){
-            if(String.IsNullOrWhiteSpace(UserName.Text)){
+        private async Task<bool> validarFormulario()
+        {
+            if (String.IsNullOrWhiteSpace(UserName.Text))
+            {
                 await this.DisplayAlert("Advertencia", "El campo del nombre es obligatorio.", "Aceptar");
                 return false;
             }
-            return true;
+             else if ()
+            {
+
+            }
         }
     }
 }
